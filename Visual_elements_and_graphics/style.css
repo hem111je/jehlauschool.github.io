@@ -1,0 +1,103 @@
+/* Otsikoiden tyyli */
+h1 {
+    font-size: 2.5em;
+    color: #2d82d8;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2em;
+    color: #2d82d8;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #2d82d8;
+    text-align: left;
+    font-style: italic;
+}
+
+/* Taustaväri tai taustakuva */
+body {
+    background-image: url('./taustakuva.jpg'); /* tai esim. background-color: #f0f8ff; */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Linkkien tyyli */
+  a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #2d82d8;
+    font-weight: bold;
+  }
+
+/* Section #interests tyyli */
+#interests ul {
+    background-color: #e0ffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#interests ul li {
+    margin-left: 1cm;
+}
+
+/* Section #zero trust tyyli */
+#zero-trust ul {
+    background-color: #e0ffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#zero-trust ul li {
+    margin-left: 1cm;
+}
+
+  /* Otsikoille reunaviiva */
+  h1, h2 {
+    border: 2px solid #30aa00;
+    padding: 10px;
+  }
+  
+  /* Kappale-elementti (p): taustaväri ja pyöristetyt reunat */
+  p {
+    background-color: #e0ffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  /* Kuvan ulkoasu (valinnainen) */
+  img {
+    border: 2px solid #ccc;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* Figure-elementin tyyli */
+  figure {
+    display: block;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  figcaption {
+    color: #2d82d8;
+    text-align: left;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  /* Progress-elementin tyyli */
+  progress {
+    width: 50%;
+    height: 50px;
+    
+  }
+  

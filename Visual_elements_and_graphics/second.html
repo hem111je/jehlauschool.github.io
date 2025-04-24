@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenna's simple HTML Page</title>
+</head>
+<body>
+
+    <a href="index.html">Siirry index-sivulle</a>
+
+    <header>
+        <h1>Tervetuloa sivulleni!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#main-content">Johdanto</a></li>
+            <li><a href="#about-me">Tietoja minusta</a></li>
+            <li><a href="#interests">Kiinnostuksen kohteet</a></li>
+            <li><a href="#zero-trust">Zero Trust</a></li>
+            <li><a href="#footer">Alatunniste</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="main-content">
+            <h2>Johdanto</h2>
+            <p>Kiitos, kun tulit käymään sivullani! Tämä on yksinkertainen HTML-sivu, joka esittelee minua ja kiinnostuksen kohteitani parilla rivillä, sekä täytetekstinä tiivistelmän Zero Trust-viitekehyksestä.</p>
+        </section>
+
+        <section id="about-me">
+            <h2>Tietoja minusta</h2>
+            <p>Olen Jenna H. ja opiskelen kyberturvallisuutta Laurea Ammattikorkeakoulussa. Sen ohella opiskelen myös Tieto- ja viestintätekniikan perustutkintoa Helsinki Business Collegessa, erikoistuen Security Operations Center-toimintaan.</p>
+
+            <figure>
+                <img src="näytöt.jpg" alt="Kuva näytöistä" style="width:100%;max-width:300px;">
+                <figcaption>Kuva näytöistäni</figcaption>
+            </figure>
+        </section>
+    
+        <section id="interests">
+            <h2>Kiinnostuksen kohteet</h2>
+            <ul>
+                <li>Ohjelmoinnin opiskelu</li>
+                <li>All things Cyber security</li>
+                <li>Pilviturvallisuus</li>
+            </ul>
+        </section>
+        
+        <section id="zero-trust">
+            <h2>Zero Trust</h2>
+            <p>Zero Trust -malli on nykyään käytössä laajasti turvallisuusalalla. Se ei ole tuote, vaan kokonaisvaltainen viitekehys turvallisuuden hallitsemiseen.</p>
+            
+            <p>Se on suunniteltu suojaamaan organisaatioita kyberuhilta ja tietomurroilta.
+            Malli perustuu ajatukseen, että perinteinen turvallisuusmalli, joka luottaa sisäisiin verkkoihin ja laitteisiin, ei enää riitä nykypäivän uhkien torjumiseen.
+            Sen sijaan Zero Trust perustuu siihen, että kaikki käyttäjät ja laitteet, riippumatta sijainnista, ovat epäluotettavia.
+            Mallin mukaan jokainen pyyntö tarkistetaan ja vahvistetaan ennen pääsyn myöntämistä.
+            Mallin perusperiaatteet ovat:</p>
+            <ul>
+            <li>todenna poikkeuksetta | käyttäen useita erilaisia lähteitä, kuten tilejä, sijaintia, laitteita</li>
+            <li>oikeudet minimiin | käyttäjät saavat vain ne oikeudet, joita he tarvitsevat työnsä suorittamiseen</li>
+            <li>odota poikkeamaa | suojaa kaikki resurssit, esim. salaus, verkon ositus, uhkahavainnointi</li>
+            </ul>
+            <img src="Zero_trust.png" alt="Zero Trust ympäristön luominen teksti" style="width:100%;max-width:600px;margin-top:20px;">
+        </section>
+
+        <section id="progress">
+            <h2>Edistymiseni</h2>
+            <p>Alla oleva palkki näyttää edistymiseni Zero Trust -mallin opiskelussa:</p>
+            <progress value="40" max="100">40%</progress>
+        </section>
+                    
+    </main>
+
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" >
+        </a>
+    </p>
+         
+
+    <footer id="footer">
+        <p>© Jenna H., 2025</p>
+    </footer>
+    
+</body>
+</html>
