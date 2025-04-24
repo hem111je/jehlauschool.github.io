@@ -1,6 +1,6 @@
 # My GitHub page dedicated for school assignments!
 ---
-## Websivuston kehittäminen task 1
+## Module 1 Hands-on assignment: Setting up the web server on Github
 In this task I created a simple HTLM-page and published it here in GitHub on a web server.
 https://jehlauschool.github.io/HTML_page_and_publish_in_GitHub/index.html
 
