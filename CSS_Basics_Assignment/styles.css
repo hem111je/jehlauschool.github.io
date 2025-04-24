@@ -1,29 +1,30 @@
 .color-esimerkki {
-    color: teal; /* värin nimi (teal) */
-    background-color: #f0e68c; /* taustaväri heksadesimaalina (#f0e68c) */
-    border: 2px solid purple;  /* reunaviivan väri (purple) */
-    border-radius: 5px; /* pyöristetyt kulmat (5px) */
-    padding: 10px; /* sisennys (10px) */
-    margin: 20px; /* ulkoreunus (20px) */
-    font-size: 20px; /* fonttikoko (20px) */
-    font-family: 'Courier New', Courier, monospace; /* fonttiperhe (Courier New) */
-    text-align: center; /* tekstin tasaus (center) */ 
-    text-transform: uppercase; /* tekstin muunnos (uppercase) */
-    text-decoration: line-through; /* tekstin koristelu (line-through) */
-    font-weight: bold; /* tekstin paksuus (bold) */
-    font-style: italic; /* tekstin tyyli (italic) */
-    text-shadow: 2px 2px 4px #000000; /* tekstin varjo (2px, 2px, 4px, musta) */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* laatikon varjo (0px, 4px, 8px, rgba) */
-    transition: all 0.3s ease; /* siirtymä (0.3s, ease) */
-    cursor: pointer; /* osoittimen tyyli (pointer) */
-    display: inline-block; /* näyttötyyli (inline-block) */ 
-    width: 7000px; /* leveys (7000px) */
-    height: 100px; /* korkeus (100px) */
-    overflow: hidden; /* ylivuoto (hidden) */
-    white-space: nowrap; /* valkoinen tila (nowrap) */
-    text-overflow: ellipsis; /* tekstin ylivuoto (ellipsis) */
-    opacity: 0.9; /* läpinäkyvyys (0.9) */
-    filter: grayscale(50%); /* harmaasävy (50%) */
+    color: teal;
+    background-color: #f0e68c;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: block; 
+    max-width: 90%;  /* skaalautuu näytön mukaan */
+    width: fit-content; /* ottaa vain sen tilan, mitä teksti tarvitsee */
+    min-width: 200px;
+    overflow-wrap: break-word; /* katkaisee pitkät sanat */
+    white-space: normal;       /* sallii rivinvaihdot */
+    text-overflow: unset;
+    opacity: 0.95;
+    filter: grayscale(30%);
 }
 
 .header-esimerkki {
