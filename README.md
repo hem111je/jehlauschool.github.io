@@ -13,3 +13,7 @@ https://jehlauschool.github.io/HTML_Basics_Assignment/index.html
 ## Module 3 Hands-On Assignment: CSS Basics - Colors and Text Styling
 To practice and reinforce understanding of CSS colors and text styling.
 https://jehlauschool.github.io/CSS_Basics_Assignment/index.html
+
+
+## Module 4 Hands-On Assignment: Visual Elements and Graphics
+To learn about the use of visual elements and graphics on web pages.
