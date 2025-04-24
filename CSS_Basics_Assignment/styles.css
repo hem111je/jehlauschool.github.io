@@ -17,7 +17,7 @@
     transition: all 0.3s ease; /* siirtymä (0.3s, ease) */
     cursor: pointer; /* osoittimen tyyli (pointer) */
     display: inline-block; /* näyttötyyli (inline-block) */ 
-    width: 200px; /* leveys (200px) */
+    width: 7000px; /* leveys (7000px) */
     height: 100px; /* korkeus (100px) */
     overflow: hidden; /* ylivuoto (hidden) */
     white-space: nowrap; /* valkoinen tila (nowrap) */
