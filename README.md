@@ -17,3 +17,4 @@ https://jehlauschool.github.io/CSS_Basics_Assignment/index.html
 
 ## Module 4 Hands-On Assignment: Visual Elements and Graphics
 To learn about the use of visual elements and graphics on web pages.
+https://jehlauschool.github.io/Visual_elements_and_graphics/second.html
