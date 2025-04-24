@@ -1,0 +1,111 @@
+.color-esimerkki {
+    color: teal; /* värin nimi (teal) */
+    background-color: #f0e68c; /* taustaväri heksadesimaalina (#f0e68c) */
+    border: 2px solid purple;  /* reunaviivan väri (purple) */
+    border-radius: 5px; /* pyöristetyt kulmat (5px) */
+    padding: 10px; /* sisennys (10px) */
+    margin: 20px; /* ulkoreunus (20px) */
+    font-size: 20px; /* fonttikoko (20px) */
+    font-family: 'Courier New', Courier, monospace; /* fonttiperhe (Courier New) */
+    text-align: center; /* tekstin tasaus (center) */ 
+    text-transform: uppercase; /* tekstin muunnos (uppercase) */
+    text-decoration: line-through; /* tekstin koristelu (line-through) */
+    font-weight: bold; /* tekstin paksuus (bold) */
+    font-style: italic; /* tekstin tyyli (italic) */
+    text-shadow: 2px 2px 4px #000000; /* tekstin varjo (2px, 2px, 4px, musta) */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* laatikon varjo (0px, 4px, 8px, rgba) */
+    transition: all 0.3s ease; /* siirtymä (0.3s, ease) */
+    cursor: pointer; /* osoittimen tyyli (pointer) */
+    display: inline-block; /* näyttötyyli (inline-block) */ 
+    width: 200px; /* leveys (200px) */
+    height: 100px; /* korkeus (100px) */
+    overflow: hidden; /* ylivuoto (hidden) */
+    white-space: nowrap; /* valkoinen tila (nowrap) */
+    text-overflow: ellipsis; /* tekstin ylivuoto (ellipsis) */
+    opacity: 0.9; /* läpinäkyvyys (0.9) */
+    filter: grayscale(50%); /* harmaasävy (50%) */
+}
+
+.header-esimerkki {
+    font-size: 36px; /* fonttikoko (36px) */
+    font-family: 'Georgia', serif; /* fonttiperhe (Georgia) */
+    color: darkred; /* väri (darkred) */
+    text-align: left; /* tekstin tasaus (left) */
+    text-transform: capitalize; /* tekstin muunnos (capitalize) */
+    text-decoration: underline; /* tekstin koristelu (underline) */
+    text-shadow: 1px 1px 2px #000000; /* tekstin varjo (1px, 1px, 2px, musta) */
+    font-weight: normal; /* tekstin paksuus (normal) */
+    font-style: normal; /* tekstin tyyli (normal) */
+    line-height: 1.5; /* riviväli (1.5) */
+    letter-spacing: 1px; /* kirjainten väli (1px) */
+    word-spacing: 2px; /* sanojen väli (2px) */
+    text-indent: 20px; /* tekstin sisennys (20px) */
+    text-align-last: justify; /* viimeisen rivin tasaus (justify) */
+    text-justify: inter-word; /* tekstin tasaus (inter-word) */
+}
+
+.lista-esimerkki {
+    list-style-type: square; /* luettelomerkin tyyppi (square) */
+    list-style-position: inside; /* luettelomerkin sijainti (inside) */
+    color: darkblue; /* väri (darkblue) */
+    font-size: 18px; /* fonttikoko (18px) */
+    font-family: 'Arial', sans-serif; /* fonttiperhe (Arial) */
+    text-align: left; /* tekstin tasaus (left) */
+    text-transform: lowercase; /* tekstin muunnos (lowercase) */
+    text-decoration: none; /* tekstin koristelu (none) */
+    text-shadow: 0px 0px 2px #000000; /* tekstin varjo (0px, 0px, 2px, musta) */
+    font-weight: normal; /* tekstin paksuus (normal) */
+    font-style: normal; /* tekstin tyyli (normal) */
+}
+
+.teksti-esimerkki {
+    font-family: Arial, sans-serif; /* fonttiperhe (Arial) */
+    font-size: 16px; /* fonttikoko (16px) */
+    color: #333; /* väri (#333) */
+    text-align: justify; /* tekstin tasaus (justify) */
+    font-size: 18px; /* fonttikoko (18px) */
+    font-weight: normal; /* tekstin paksuus (normal) */
+    text-transform: capitalize; /* tekstin muunnos (capitalize) */
+    text-decoration: none; /* tekstin koristelu (none) */
+    text-decoration: underline; /* tekstin koristelu (underline) */ 
+    text-shadow: 1px 1px 2px #000000; /* tekstin varjo (1px, 1px, 2px, musta) */
+    font-style: italic; /* tekstin tyyli (italic) */
+    line-height: 1.5; /* riviväli (1.5) */
+    letter-spacing: 0.5px; /* kirjainten väli (0.5px) */
+}
+
+.div-esimerkki {
+    background-color: #d3d3d3; /* taustaväri (#d3d3d3) */
+    color: #000; /* väri (#000) */
+    font-size: 16px; /* fonttikoko (16px) */
+    font-family: 'Verdana', sans-serif; /* fonttiperhe (Verdana) */
+    text-align: left; /* tekstin tasaus (left) */
+    text-transform: none; /* tekstin muunnos (none) */
+    text-decoration: none; /* tekstin koristelu (none) */
+    border: 3px dashed black; /* reunaviivan tyyli (dashed) */
+    border-radius: 10px; /* pyöristetyt kulmat (10px) */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* laatikon varjo (0px, 2px, 5px, rgba) */
+    padding: 20px; /* sisennys (20px) */
+    margin: 15px; /* ulkoreunus (15px) */
+    width: 300px; /* leveys (300px) */
+    height: 150px; /* korkeus (150px) */
+    overflow: auto; /* ylivuoto (auto) */
+    white-space: normal; /* valkoinen tila (normal) */
+    text-overflow: clip; /* tekstin ylivuoto (clip) */
+    opacity: 0.8; /* läpinäkyvyys (0.8) */
+    filter: blur(1px); /* sumeus (1px) */
+    padding: 10px; /* sisennys (10px) */
+    margin: 10px; /* ulkoreunus (10px) */
+    display: flex; /* näyttötyyli (flex) */
+    flex-direction: column; /* joustavan suunnan suunta (column) */
+    justify-content: center; /* joustavan sisällön tasaus (center) */
+    align-items: center; /* joustavan sisällön tasaus (center) */
+    flex-wrap: wrap; /* joustavan sisällön kääre (wrap) */
+    flex-grow: 1; /* joustavan sisällön kasvu (1) */
+    flex-shrink: 1; /* joustavan sisällön kutistuminen (1) */
+    flex-basis: 100px; /* joustavan sisällön perusta (100px) */
+    flex: 1 1 auto; /* joustavan sisällön perusta (1, 1, auto) */
+    align-self: stretch; /* itsenäinen tasaus (stretch) */
+    align-content: space-between; /* sisällön tasaus (space-between) */
+}
+
