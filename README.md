@@ -27,8 +27,11 @@ https://jehlauschool.github.io/Web_Design/index.html
 
 ## Module 6 Hands-On Assignment: Page Layout
 Create two column website, make use of "box model" while designing website and using css-pseudo classes.
+https://jehlauschool.github.io/Page_Layout/index.html
 
 ## Module 7 Hands-On Assignment: Bootsrap pages practice
 Create first Boostrap page and practice the use of grid.
+https://jehlauschool.github.io/Bootstrap/module7.html
 
 ## Module 8 Hands-On Assignment: Create a Website
+https://jehlauschool.github.io/Create_a_website/index.html
