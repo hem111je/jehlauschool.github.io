@@ -94,21 +94,37 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="yhteys.html" id="OtaYhteyttä" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Ota yhteyttä</a>
 </nav>
   
-    <!-- Menu button for small screens -->
-    <div class="w3-hide-large w3-hide-medium w3-top" style="background: #fff;">
-      <div class="w3-bar w3-white w3-large">
-        <button class="w3-bar-item w3-button w3-padding-large" onclick="toggleMobileMenu()" aria-label="Avaa valikko">
-          <i class="fa fa-bars"></i>
-        </button>
+    <!-- Responsive top navigation bar with logo and menu -->
+    <div class="w3-top w3-white" style="width:100%; z-index:2;">
+      <div class="w3-bar w3-white w3-large" style="display:flex; align-items:center; padding:0;">
+      <!-- Logo fills the height of the bar -->
+      <a href="index.html" style="flex:0 0 auto; height:56px; display:flex; align-items:center;">
+        <img src="img/logo.png" alt="Logo" style="height:56px; width:auto; display:block;">
+      </a>
+      <!-- Desktop navigation links -->
+      <div class="w3-hide-small" style="flex:1; display:flex; justify-content:flex-end;">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Etusivu</a>
+        <a href="urapolut.html" id="Urapolut" class="w3-bar-item w3-button w3-padding-large">Urapolut</a>
+        <a href="linkit.html" id="Vinkit" class="w3-bar-item w3-button w3-padding-large">Linkit</a>
+        <a href="ukk.html" id="UKK" class="w3-bar-item w3-button w3-padding-large">UKK</a>
+        <a href="yhteys.html" id="OtaYhteyttä" class="w3-bar-item w3-button w3-padding-large">Ota yhteyttä</a>
+      </div>
+      <!-- Hamburger menu for mobile -->
+      <button class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-padding-large" onclick="toggleMobileMenu()" aria-label="Avaa valikko" style="margin-left:auto;">
+        <i class="fa fa-bars"></i>
+      </button>
+      </div>
+      <!-- Mobile navigation links -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-large">
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Etusivu</a>
+      <a href="urapolut.html" id="UrapolutMobile" class="w3-bar-item w3-button w3-padding-large">Urapolut</a>
+      <a href="linkit.html" id="VinkitMobile" class="w3-bar-item w3-button w3-padding-large">Linkit</a>
+      <a href="ukk.html" id="UKKMobile" class="w3-bar-item w3-button w3-padding-large">UKK</a>
+      <a href="yhteys.html" id="OtaYhteyttäMobile" class="w3-bar-item w3-button w3-padding-large">Ota yhteyttä</a>
       </div>
     </div>
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-large">
-        <a href="urapolut.html" id="UrapolutMobile" class="w3-bar-item w3-button w3-padding-large">Urapolut</a>
-        <a href="linkit.html" id="VinkitMobile" class="w3-bar-item w3-button w3-padding-large">Linkit</a>
-        <a href="ukk.html" id="UKKMobile" class="w3-bar-item w3-button w3-padding-large">UKK</a>
-        <a href="yhteys.html" id="OtaYhteyttäMobile" class="w3-bar-item w3-button w3-padding-large">Ota yhteyttä</a>
-    </div>
+    <!-- Add spacing below the fixed nav -->
+    <div style="height:56px;"></div>
 
   <!-- ADD: Start main content wrapper -->
   <div style="margin-left:220px">
