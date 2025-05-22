@@ -23,3 +23,12 @@ https://jehlauschool.github.io/Visual_elements_and_graphics/second.html
 ## Module 5 Hands-On Assignment: Web Design
 Create web site structure, navigation (page links) and practice use of visual appearance to own web site.
 https://jehlauschool.github.io/Web_Design/index.html
+
+
+## Module 6 Hands-On Assignment: Page Layout
+Create two column website, make use of "box model" while designing website and using css-pseudo classes.
+
+## Module 7 Hands-On Assignment: Bootsrap pages practice
+Create first Boostrap page and practice the use of grid.
+
+## Module 8 Hands-On Assignment: Create a Website
