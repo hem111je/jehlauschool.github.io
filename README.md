@@ -34,4 +34,7 @@ Create first Boostrap page and practice the use of grid.
 https://jehlauschool.github.io/Bootstrap/module7.html
 
 ## Module 8 Hands-On Assignment: Create a Website
+I had the freedom to choose both the topic and style of the entire webpage. While it was suggested to use templates from W3Schools, I selected [this one](https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm) as a starting point.
+My goal was to create an informative site about the IT field, specifically aimed at individuals considering a career change. I wanted the page to be visually appealing, clear, and easy to navigate. The primary focus was on the desktop experience, while the mobile version still requires some adjustments to function as intended.
+I designed the logo, favicon, and the overall color scheme myself. To support the development process, I also made use of GitHub Copilot via the Visual Studio Code extension. The page demonstrates the skills I aquired during the course.
 https://jehlauschool.github.io/Create_a_website/index.html
